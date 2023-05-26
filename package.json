@@ -8,20 +8,25 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@heroicons/react": "2.0.16",
     "@remix-run/css-bundle": "^1.16.1",
     "@remix-run/node": "^1.16.1",
     "@remix-run/react": "^1.16.1",
     "@remix-run/serve": "^1.16.1",
+    "axios": "1.3.4",
     "isbot": "^3.6.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^3.7.2",
     "@remix-run/dev": "^1.16.1",
     "@remix-run/eslint-config": "^1.16.1",
     "@types/react": "^18.0.35",
     "@types/react-dom": "^18.0.11",
     "eslint": "^8.38.0",
+    "eslint-plugin-tailwindcss": "^3.12.0",
+    "prettier": "^2.8.8",
     "tailwindcss": "^3.3.2",
     "typescript": "^5.0.4"
   },
